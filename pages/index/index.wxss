@@ -1,0 +1,34 @@
+#myCanvas{
+	width: 686rpx;
+	height: 686rpx;
+	background-color: #f1f1f1;
+}
+.bgc{
+	background-color: #efeff4;
+	height: 100vh;
+}
+.img-box{
+	padding: 32rpx;
+	background-color: #fff;
+	border-bottom: 1px solid #e5e5e5;
+}
+.inoput-row{
+	margin: 30rpx auto;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	display: flex;
+	align-items: center;
+	height: 88rpx;
+	padding: 0 32rpx;
+	background-color: #fff;
+	font-size: 34rpx;
+	color: #000;
+}
+.inoput-row>input{
+	margin-left: 100rpx;
+	flex: 1;
+}
+.btn{
+	width: 686rpx;
+	margin: 60rpx auto;
+}

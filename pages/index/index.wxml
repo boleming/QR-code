@@ -1,0 +1,12 @@
+<view class="container bgc">
+	<view class="img-box">
+		<canvas id="myCanvas" canvas-id="myCanvas" />
+	</view>
+	<form bindsubmit="subForm">
+		<view class="inoput-row">
+			<label>网址</label>
+			<input name="url" type="text" maxlength="256" placeholder="{{placeholder}}"/>
+		</view>
+		<button form-type="submit" class="btn" type="primary">生成二维码</button>
+	</form>
+</view>
